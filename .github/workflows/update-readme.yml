@@ -1,0 +1,41 @@
+name: Actualizar índice de materiales
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - README.md
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: indice-materiales-main
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Organizar P1 y regenerar el índice
+        run: python3 .github/scripts/update_readme.py --organize-ri
+      - name: Guardar los cambios
+        shell: bash
+        run: |
+          git add -- README.md
+          if [ -d '26/Recuperación de Información' ]; then
+            git add -A -- '26/Recuperación de Información'
+          fi
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Actualizar índice de materiales'
+          git push origin HEAD:main
