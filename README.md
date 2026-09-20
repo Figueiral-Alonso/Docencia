@@ -12,6 +12,12 @@ Materiales de clase de **Erik Figueiral Alonso**.
 
 - Presentación: [PDF](26/L%C3%B3gica%20Computacional/LAB1/LAB1_Introduccion_a_Prolog.pdf) · [PowerPoint](26/L%C3%B3gica%20Computacional/LAB1/LAB1_Introduccion_a_Prolog.pptx)
 
+### Razonamiento con Incertidumbre
+
+#### Planificación
+
+- Presentación: [PDF](26/Razonamiento%20con%20Incertidumbre/Planificaci%C3%B3n/RAIN_Planificacion.pdf) · [PowerPoint](26/Razonamiento%20con%20Incertidumbre/Planificaci%C3%B3n/RAIN_Planificacion.pptx)
+
 ### Recuperación de Información
 
 #### P1- Práctica 1. Adquisición y procesamiento de información textual
