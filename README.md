@@ -6,7 +6,17 @@ Materiales de clase de **Erik Figueiral Alonso**.
 
 ## Curso 26
 
-### Lógica Computacional
+| Asignatura | Materiales |
+| :--- | :--- |
+| 🟦 [Lógica Computacional](#curso-26-asignatura-1) | 4 archivos |
+| 🟪 [Razonamiento con Incertidumbre](#curso-26-asignatura-2) | 2 archivos |
+| 🟩 [Recuperación de Información](#curso-26-asignatura-3) | 2 archivos |
+
+---
+
+<a id="curso-26-asignatura-1"></a>
+
+### 🟦 Lógica Computacional
 
 #### LAB1 — Introduccion a Prolog
 
@@ -16,16 +26,24 @@ Materiales de clase de **Erik Figueiral Alonso**.
 
 - Presentación: [PDF](26/L%C3%B3gica%20Computacional/LAB2_3/LAB2_3_Manejo_de_Listas_Prolog.pdf) · [PowerPoint](26/L%C3%B3gica%20Computacional/LAB2_3/LAB2_3_Manejo_de_Listas_Prolog.pptx)
 
-### Razonamiento con Incertidumbre
+---
 
-#### Planificación
+<a id="curso-26-asignatura-2"></a>
 
-- Presentación: [PDF](26/Razonamiento%20con%20Incertidumbre/Planificaci%C3%B3n/RAIN_Planificacion.pdf) · [PowerPoint](26/Razonamiento%20con%20Incertidumbre/Planificaci%C3%B3n/RAIN_Planificacion.pptx)
+### 🟪 Razonamiento con Incertidumbre
 
-### Recuperación de Información
+#### P1 — Planificación
 
-#### P1- Práctica 1. Adquisición y procesamiento de información textual
+- Presentación: [PDF](26/Razonamiento%20con%20Incertidumbre/P1/P1_Planificaci%C3%B3n.pdf) · [PowerPoint](26/Razonamiento%20con%20Incertidumbre/P1/P1_Planificaci%C3%B3n.pptx)
 
-- Presentación: [PDF](26/Recuperaci%C3%B3n%20de%20Informaci%C3%B3n/P1-%20Pr%C3%A1ctica%201.%20Adquisici%C3%B3n%20y%20procesamiento%20de%20informaci%C3%B3n%20textual/practica_1_teoria_18_septiembre_v10.pdf) · [PowerPoint](26/Recuperaci%C3%B3n%20de%20Informaci%C3%B3n/P1-%20Pr%C3%A1ctica%201.%20Adquisici%C3%B3n%20y%20procesamiento%20de%20informaci%C3%B3n%20textual/practica_1_teoria_18_septiembre_v10.pptx)
+---
+
+<a id="curso-26-asignatura-3"></a>
+
+### 🟩 Recuperación de Información
+
+#### P1 — Adquisición y procesamiento de información textual
+
+- Presentación: [PDF](26/Recuperaci%C3%B3n%20de%20Informaci%C3%B3n/P1/P1_Adquisici%C3%B3n_y_procesamiento_de_informaci%C3%B3n_textual.pdf) · [PowerPoint](26/Recuperaci%C3%B3n%20de%20Informaci%C3%B3n/P1/P1_Adquisici%C3%B3n_y_procesamiento_de_informaci%C3%B3n_textual.pptx)
 
 <!-- materiales:fin -->
