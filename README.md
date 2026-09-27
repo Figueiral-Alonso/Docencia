@@ -12,6 +12,10 @@ Materiales de clase de **Erik Figueiral Alonso**.
 
 - Presentación: [PDF](26/L%C3%B3gica%20Computacional/LAB1/LAB1_Introduccion_a_Prolog.pdf) · [PowerPoint](26/L%C3%B3gica%20Computacional/LAB1/LAB1_Introduccion_a_Prolog.pptx)
 
+#### LAB2\_3
+
+- Presentación: [PDF](26/L%C3%B3gica%20Computacional/LAB2_3/LAB2_3Manejo_de_Listas_Prolog.pdf) · [PowerPoint](26/L%C3%B3gica%20Computacional/LAB2_3/LAB2_3Manejo_de_Listas_Prolog.pptx)
+
 ### Razonamiento con Incertidumbre
 
 #### Planificación
