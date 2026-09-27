@@ -2,7 +2,6 @@
 from pathlib import Path
 from urllib.parse import quote
 from collections import defaultdict
-import argparse
 import re
 
 COLORS = ('🟦', '🟪', '🟩', '🟧', '🟥', '🟨', '🟫')
@@ -99,20 +98,6 @@ def render(root):
     return '\n'.join(lines).strip() or 'Todavía no hay materiales publicados.'
 
 
-def organize_ri(root):
-    """Migra solo los dos documentos originales de P1; nunca sobrescribe."""
-    origin = root / '26' / 'Recuperación de Información'
-    target = origin / 'P1- Práctica 1. Adquisición y procesamiento de información textual'
-    for ext in ('.pdf', '.pptx'):
-        old = origin / ('practica_1_teoria_18_septiembre_v10' + ext)
-        new = target / old.name
-        if old.exists():
-            if new.exists():
-                raise FileExistsError(f'El destino ya existe: {new}')
-            target.mkdir(parents=True, exist_ok=True)
-            old.rename(new)
-
-
 def update(root):
     readme = root / 'README.md'
     old = readme.read_text(encoding='utf-8-sig') if readme.exists() else ''
@@ -129,11 +114,4 @@ def update(root):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--organize-ri', action='store_true')
-    args = parser.parse_args()
-    root = Path(__file__).resolve().parents[2]
-    if args.organize_ri:
-        organize_ri(root)
-    update(root)
-
+    update(Path(__file__).resolve().parents[2])
