@@ -14,8 +14,7 @@ Materiales de clase de **Erik Figueiral Alonso**.
 
 #### LAB2\_3
 
-- LAB2 3 Manejo de Listas Prolog: [PowerPoint](26/L%C3%B3gica%20Computacional/LAB2_3/LAB2_3_Manejo_de_Listas_Prolog.pptx)
-- LAB2 3Manejo de Listas Prolog: [PDF](26/L%C3%B3gica%20Computacional/LAB2_3/LAB2_3Manejo_de_Listas_Prolog.pdf)
+- Presentación: [PDF](26/L%C3%B3gica%20Computacional/LAB2_3/LAB2_3_Manejo_de_Listas_Prolog.pdf) · [PowerPoint](26/L%C3%B3gica%20Computacional/LAB2_3/LAB2_3_Manejo_de_Listas_Prolog.pptx)
 
 ### Razonamiento con Incertidumbre
 
