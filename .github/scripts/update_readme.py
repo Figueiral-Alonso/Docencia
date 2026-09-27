@@ -29,6 +29,26 @@ def materials(folder):
             and p.name.casefold() not in ('readme.md', 'thumbs.db')]
 
 
+def section_title(folder):
+    """Obtiene el subtitulo de archivos con el prefijo completo de la carpeta."""
+    files = [p for p in folder.iterdir()
+             if p.is_file() and not p.is_symlink()
+             and not p.name.startswith('.') and p.suffix.lower() in FORMATS]
+    prefix = re.compile(r'^' + re.escape(folder.name) + r'[_\s-]+', re.IGNORECASE)
+    titles = set()
+    for path in files:
+        match = prefix.match(path.stem)
+        if not match:
+            return folder.name
+        subtitle = re.sub(r'[_\s]+', ' ', path.stem[match.end():]).strip(' -')
+        if not subtitle:
+            return folder.name
+        titles.add(subtitle)
+    if len(titles) == 1:
+        return folder.name + ' — ' + next(iter(titles))
+    return folder.name
+
+
 def section(folder, root, level):
     lines = []
     files = [p for p in folder.iterdir() if p.is_file() and not p.is_symlink()
@@ -46,7 +66,7 @@ def section(folder, root, level):
     for child in sorted(folder.iterdir(), key=sort_key):
         if not child.is_dir() or child.is_symlink() or child.name.startswith('.') or not materials(child):
             continue
-        title = 'LAB1 — Introducción a Prolog' if child.name == 'LAB1' and folder.name == 'Lógica Computacional' else child.name
+        title = section_title(child)
         lines += ['#' * min(level, 6) + ' ' + escape(title), '']
         lines += section(child, root, level + 1)
     return lines
@@ -98,3 +118,4 @@ if __name__ == '__main__':
     if args.organize_ri:
         organize_ri(root)
     update(root)
+
