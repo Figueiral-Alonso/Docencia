@@ -5,6 +5,8 @@ from collections import defaultdict
 import argparse
 import re
 
+COLORS = ('🟦', '🟪', '🟩', '🟧', '🟥', '🟨', '🟫')
+
 START = '<!-- materiales:inicio -->'
 END = '<!-- materiales:fin -->'
 INTRO = '# Docencia\n\nMateriales de clase de **Erik Figueiral Alonso**.\n\n'
@@ -77,7 +79,23 @@ def render(root):
     courses = [p for p in root.iterdir() if p.is_dir() and not p.is_symlink()
                and re.fullmatch(r'\d{2}(?:\d{2})?', p.name) and materials(p)]
     for course in sorted(courses, key=lambda p: int(p.name), reverse=True):
-        lines += [f'## Curso {course.name}', ''] + section(course, root, 3)
+        subjects = [p for p in sorted(course.iterdir(), key=sort_key)
+                    if p.is_dir() and not p.is_symlink()
+                    and not p.name.startswith('.') and materials(p)]
+        lines += [f'## Curso {course.name}', '', '| Asignatura | Materiales |',
+                  '| :--- | :--- |']
+        for index, subject in enumerate(subjects):
+            color = COLORS[index % len(COLORS)]
+            anchor = f'curso-{course.name}-asignatura-{index + 1}'
+            lines += [f'| {color} [{escape(subject.name)}](#{anchor}) | '
+                      f'{len(materials(subject))} archivos |']
+        lines.append('')
+        for index, subject in enumerate(subjects):
+            color = COLORS[index % len(COLORS)]
+            anchor = f'curso-{course.name}-asignatura-{index + 1}'
+            lines += ['---', '', f'<a id="{anchor}"></a>', '',
+                      f'### {color} {escape(subject.name)}', '']
+            lines += section(subject, root, 4)
     return '\n'.join(lines).strip() or 'Todavía no hay materiales publicados.'
 
 
