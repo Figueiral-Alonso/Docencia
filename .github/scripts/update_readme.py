@@ -4,7 +4,7 @@ from urllib.parse import quote
 from collections import defaultdict
 import re
 
-COLORS = ('🟦', '🟪', '🟩', '🟧', '🟥', '🟨', '🟫')
+COLORS = ['70436F', 'D96B18', '0B8989', '2563EB', 'C0392B', 'A67C00', '64748B']
 
 START = '<!-- materiales:inicio -->'
 END = '<!-- materiales:fin -->'
@@ -84,13 +84,13 @@ def render(root):
         lines += [f'## Curso {course.name}', '', '| Asignatura | Materiales |',
                   '| :--- | :--- |']
         for index, subject in enumerate(subjects):
-            color = COLORS[index % len(COLORS)]
+            color = f'![Color](https://img.shields.io/badge/%20-{COLORS[index % len(COLORS)]}?style=flat-square)'
             anchor = f'curso-{course.name}-asignatura-{index + 1}'
             lines += [f'| {color} [{escape(subject.name)}](#{anchor}) | '
                       f'{len(materials(subject))} archivos |']
         lines.append('')
         for index, subject in enumerate(subjects):
-            color = COLORS[index % len(COLORS)]
+            color = f'![Color](https://img.shields.io/badge/%20-{COLORS[index % len(COLORS)]}?style=flat-square)'
             anchor = f'curso-{course.name}-asignatura-{index + 1}'
             lines += ['---', '', f'<a id="{anchor}"></a>', '',
                       f'### {color} {escape(subject.name)}', '']
