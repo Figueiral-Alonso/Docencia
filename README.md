@@ -8,15 +8,15 @@ Materiales de clase de **Erik Figueiral Alonso**.
 
 | Asignatura | Materiales |
 | :--- | :--- |
-| 🟦 [Lógica Computacional](#curso-26-asignatura-1) | 4 archivos |
-| 🟪 [Razonamiento con Incertidumbre](#curso-26-asignatura-2) | 2 archivos |
-| 🟩 [Recuperación de Información](#curso-26-asignatura-3) | 2 archivos |
+| ![Color](https://img.shields.io/badge/%20-70436F?style=flat-square) [Lógica Computacional](#curso-26-asignatura-1) | 4 archivos |
+| ![Color](https://img.shields.io/badge/%20-D96B18?style=flat-square) [Razonamiento con Incertidumbre](#curso-26-asignatura-2) | 2 archivos |
+| ![Color](https://img.shields.io/badge/%20-0B8989?style=flat-square) [Recuperación de Información](#curso-26-asignatura-3) | 2 archivos |
 
 ---
 
 <a id="curso-26-asignatura-1"></a>
 
-### 🟦 Lógica Computacional
+### ![Color](https://img.shields.io/badge/%20-70436F?style=flat-square) Lógica Computacional
 
 #### LAB1 — Introduccion a Prolog
 
@@ -30,7 +30,7 @@ Materiales de clase de **Erik Figueiral Alonso**.
 
 <a id="curso-26-asignatura-2"></a>
 
-### 🟪 Razonamiento con Incertidumbre
+### ![Color](https://img.shields.io/badge/%20-D96B18?style=flat-square) Razonamiento con Incertidumbre
 
 #### P1 — Planificación
 
@@ -40,7 +40,7 @@ Materiales de clase de **Erik Figueiral Alonso**.
 
 <a id="curso-26-asignatura-3"></a>
 
-### 🟩 Recuperación de Información
+### ![Color](https://img.shields.io/badge/%20-0B8989?style=flat-square) Recuperación de Información
 
 #### P1 — Adquisición y procesamiento de información textual
 
