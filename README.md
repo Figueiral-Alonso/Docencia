@@ -9,7 +9,7 @@ Materiales de clase de **Erik Figueiral Alonso**.
 | Asignatura | Materiales |
 | :--- | :--- |
 | ![Color](https://img.shields.io/badge/%20-70436F?style=flat-square) [Lógica Computacional](#curso-26-asignatura-1) | 4 archivos |
-| ![Color](https://img.shields.io/badge/%20-D96B18?style=flat-square) [Razonamiento con Incertidumbre](#curso-26-asignatura-2) | 5 archivos |
+| ![Color](https://img.shields.io/badge/%20-D96B18?style=flat-square) [Razonamiento con Incertidumbre](#curso-26-asignatura-2) | 8 archivos |
 | ![Color](https://img.shields.io/badge/%20-0B8989?style=flat-square) [Recuperación de Información](#curso-26-asignatura-3) | 2 archivos |
 
 ---
@@ -38,15 +38,15 @@ Materiales de clase de **Erik Figueiral Alonso**.
 
 #### P2\_Arquitectura
 
-- Presentación: [PowerPoint](26/Razonamiento%20con%20Incertidumbre/P2_Arquitectura/Arquitectura_y_Diseno.pptx)
+- Presentación: [PDF](26/Razonamiento%20con%20Incertidumbre/P2_Arquitectura/Arquitectura_y_Diseno.pdf) · [PowerPoint](26/Razonamiento%20con%20Incertidumbre/P2_Arquitectura/Arquitectura_y_Diseno.pptx)
 
 ##### Control\_Fuzzy
 
-- Presentación: [PowerPoint](26/Razonamiento%20con%20Incertidumbre/P2_Arquitectura/Control_Fuzzy/Sistemas_de_Control_Fuzzy.pptx)
+- Presentación: [PDF](26/Razonamiento%20con%20Incertidumbre/P2_Arquitectura/Control_Fuzzy/Sistemas_de_Control_Fuzzy.pdf) · [PowerPoint](26/Razonamiento%20con%20Incertidumbre/P2_Arquitectura/Control_Fuzzy/Sistemas_de_Control_Fuzzy.pptx)
 
 ##### Diagnostico\_Bayesiano — PROVISIONAL
 
-- Presentación: [PowerPoint](26/Razonamiento%20con%20Incertidumbre/P2_Arquitectura/Diagnostico_Bayesiano/Diagnostico_Bayesiano_PROVISIONAL.pptx)
+- Presentación: [PDF](26/Razonamiento%20con%20Incertidumbre/P2_Arquitectura/Diagnostico_Bayesiano/Diagnostico_Bayesiano_PROVISIONAL.pdf) · [PowerPoint](26/Razonamiento%20con%20Incertidumbre/P2_Arquitectura/Diagnostico_Bayesiano/Diagnostico_Bayesiano_PROVISIONAL.pptx)
 
 ---
 
