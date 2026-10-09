@@ -10,7 +10,7 @@ Materiales de clase de **Erik Figueiral Alonso**.
 | :--- | :--- |
 | ![Color](https://img.shields.io/badge/%20-70436F?style=flat-square) [Lógica Computacional](#curso-26-asignatura-1) | 4 archivos |
 | ![Color](https://img.shields.io/badge/%20-D96B18?style=flat-square) [Razonamiento con Incertidumbre](#curso-26-asignatura-2) | 8 archivos |
-| ![Color](https://img.shields.io/badge/%20-0B8989?style=flat-square) [Recuperación de Información](#curso-26-asignatura-3) | 2 archivos |
+| ![Color](https://img.shields.io/badge/%20-0B8989?style=flat-square) [Recuperación de Información](#curso-26-asignatura-3) | 4 archivos |
 
 ---
 
@@ -57,5 +57,9 @@ Materiales de clase de **Erik Figueiral Alonso**.
 #### P1 — Adquisición y procesamiento de información textual
 
 - Presentación: [PDF](26/Recuperaci%C3%B3n%20de%20Informaci%C3%B3n/P1/P1_Adquisici%C3%B3n_y_procesamiento_de_informaci%C3%B3n_textual.pdf) · [PowerPoint](26/Recuperaci%C3%B3n%20de%20Informaci%C3%B3n/P1/P1_Adquisici%C3%B3n_y_procesamiento_de_informaci%C3%B3n_textual.pptx)
+
+#### P3 — introduccion whoosh
+
+- Presentación: [PDF](26/Recuperaci%C3%B3n%20de%20Informaci%C3%B3n/P3/P3_introduccion_whoosh.pdf) · [PowerPoint](26/Recuperaci%C3%B3n%20de%20Informaci%C3%B3n/P3/P3_introduccion_whoosh.pptx)
 
 <!-- materiales:fin -->
