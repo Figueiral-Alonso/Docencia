@@ -8,7 +8,7 @@ Materiales de clase de **Erik Figueiral Alonso**.
 
 | Asignatura | Materiales |
 | :--- | :--- |
-| ![Color](https://img.shields.io/badge/%20-70436F?style=flat-square) [Lógica Computacional](#curso-26-asignatura-1) | 4 archivos |
+| ![Color](https://img.shields.io/badge/%20-70436F?style=flat-square) [Lógica Computacional](#curso-26-asignatura-1) | 6 archivos |
 | ![Color](https://img.shields.io/badge/%20-D96B18?style=flat-square) [Razonamiento con Incertidumbre](#curso-26-asignatura-2) | 8 archivos |
 | ![Color](https://img.shields.io/badge/%20-0B8989?style=flat-square) [Recuperación de Información](#curso-26-asignatura-3) | 4 archivos |
 
@@ -25,6 +25,10 @@ Materiales de clase de **Erik Figueiral Alonso**.
 #### LAB2\_3 — Manejo de Listas Prolog
 
 - Presentación: [PDF](26/L%C3%B3gica%20Computacional/LAB2_3/LAB2_3_Manejo_de_Listas_Prolog.pdf) · [PowerPoint](26/L%C3%B3gica%20Computacional/LAB2_3/LAB2_3_Manejo_de_Listas_Prolog.pptx)
+
+#### LAB4 — Corte en Prolog
+
+- Presentación: [PDF](26/L%C3%B3gica%20Computacional/LAB4/LAB4_Corte_en_Prolog.pdf) · [PowerPoint](26/L%C3%B3gica%20Computacional/LAB4/LAB4_Corte_en_Prolog.pptx)
 
 ---
 
